@@ -1,7 +1,7 @@
 import torch
 from torch.nn import functional as F
 
-
+# 定义卷积层
 class CNNLayer(torch.nn.Module):
     def __init__(self, C_in, C_out):
         super(CNNLayer, self).__init__()
